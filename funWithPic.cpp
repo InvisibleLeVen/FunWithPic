@@ -37,8 +37,8 @@
 int main() {
 	initgraph(WIDTH, HEIGHT);
 	PIMAGE pimg = newimage(WIDTH, HEIGHT);
-	getimage(pimg, "D:/DesktopPic/IMG_0463.JPG", 0, 0);
-	std::vector<unsigned int> vec;
+	getimage(pimg, "./IMG_0463.JPG", 0, 0);
+	//std::vector<unsigned int> vec;
 	//putimage(0, 0, pimg);
 	for (int i = 0; i < WIDTH; i++) {
 		for (int j = 0; j < HEIGHT; j++) {
